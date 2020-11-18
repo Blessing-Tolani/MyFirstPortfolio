@@ -273,4 +273,12 @@ var navSlide = function navSlide() {
         nav.classList.toggle("nav-active");
 
         navlinks.forEach(function (link, index) {
-        
+            if (link.style.animation) {
+                link.style.animation = '';
+            } else {
+                link.style.animation = "navLinkFade 0.5s ease forwards " + index / 7 + "s";
+            }
+        });
+    });
+};
+navSlide();
