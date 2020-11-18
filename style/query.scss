@@ -1,0 +1,264 @@
+@media screen and (max-width:1280px){
+    #text{
+        margin-left:10px;
+    }
+  
+}
+@media screen and (max-width:1200px){
+    .cloud,.peak{
+        width:450px;
+        height:400px;
+    }
+    .grin{
+        padding-top:0px;
+        float:none;
+        border-radius:20%;
+    }
+    #maintext {
+        position:none;
+       text-align: center;
+       padding:0px 0px;
+      
+    }
+    #main{
+        padding:60px 0px;
+    }
+    #text{
+        margin-left:0px;
+        position: relative;
+        top:0%;
+        transform: translateY(0%);
+        >h1{
+            text-align:center;
+        }
+        >h4{
+        text-align:center;
+        }
+    }
+  
+}
+@media screen and (max-width:1200px){
+    .cloud,.peak{
+        width:400px;
+        height:300px;
+    }
+}
+@media screen and (max-width:900px){
+    .cloud,.peak{
+        width:300px;
+        height:200px;
+    }
+    #about > div > div{
+        width:100%;
+    }
+    #about{
+        position:relative;
+        text-align:center;
+        padding:0px 30px;
+    }
+    #abouthead{
+        text-align: center;
+        position:relative;
+        margin-top:8%;
+      
+    }
+    #abouttext{
+        float:none;
+     
+         padding:20px 0px;
+        
+    }
+}
+@media screen and (max-width:800px){
+    #media{
+        font-size:30px;
+      
+    }
+}
+@media screen and (max-width:750px){
+    #text{
+        >h1{
+            text-align:center;
+            font-size: 2.5em;
+        }
+    }
+    .cloud,.peak{
+        width:500px;
+        height:400px;
+    }
+    .bigdiv{
+        display:block;
+        width:100%;
+        text-align:center;
+        margin:0%;
+        margin-top:50px;
+    }
+    #project{
+       
+         padding-bottom:20px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .cloud,.peak{
+        width:400px;
+        height:300px;
+    }
+    .fa-grin-hearts{
+    
+        font-size:30px;
+    }
+    .nav-links{
+        position: absolute;
+        right:0px;
+        height: 50vh;
+        top: 70px;
+        width:100%;
+       
+        flex-direction: column;
+        display:none;
+        transition:transform 0.5s ease-in;
+        background-color:#fbfeff;
+        z-index: 20;
+        li{
+            opacity:0;
+           
+            &:hover{
+                background-color:#fbfeff;
+                width:100%;
+                .firstnav{
+                    color:#191820;
+                    padding-left:40%;
+                }
+            }
+        } 
+    }
+
+    .burger{
+        display:block;
+        cursor:pointer;
+    }
+    .nav-active{
+       
+        display:flex;
+    + .burger{
+        background-color:#800020;
+    }
+    }
+    .grin{
+       
+        height:500px;
+    }
+    
+}
+@media screen and (max-width:580px){
+    .grin{
+       
+        border-radius:30%;
+       
+        width:100%;
+        height:500px;
+    }
+}
+@media screen and (max-width:520px){
+    #media{
+        font-size:20px;
+      
+    }
+    .divtext2{
+      
+        font-size: 1.8em;
+        
+    }
+    
+    #about{
+        position:relative;
+        text-align:center;
+        padding:0px 20px;
+    }
+    .cloud,.peak{
+        width:80%;
+        height:300px;
+    }
+    #text{
+        >h1{
+            text-align:none;
+            font-size: 1.8em;
+        }
+    }
+    .grin{
+     
+        border-radius:30%;
+        width:100%;
+        height:500px;
+    }
+    button{
+        margin:30px 0px;
+        font-family: 'Open Sans', sans-serif;
+        padding:10px ;
+       
+        cursor: pointer;
+        font-weight:900;
+        font-size: 15px;
+      
+    
+        
+    }
+    #button{
+        width:140px;
+        
+        margin-left:10px;
+       
+    }
+    #button0{
+       
+        width:160px;
+        
+    }
+  
+}
+@media screen and (max-width:400px){
+    .cloud,.peak{
+        width:90%;
+        height:300px;
+    }
+    .grin{
+     
+        border-radius:30%;
+        width:100%;
+        height:500px;
+    }
+}
+@media screen and (max-width:340px){
+    
+    #button{
+        width:120px;
+        
+        margin-left:10px;
+       
+    }
+    #button0{
+       
+        width:150px;
+        
+    }
+    button{
+        margin:30px 0px;
+        font-family: 'Open Sans', sans-serif;
+        padding:10px ;
+       
+        cursor: pointer;
+        font-weight:900;
+        font-size: 13px;
+      
+    
+        
+    }
+    .grin{
+     
+        border-radius:30%;
+        width:100%;
+        height:400px;
+    }
+}
