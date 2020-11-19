@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #e6cdb1;
+}
+
 button {
   margin: 30px 0px;
   font-family: 'Open Sans', sans-serif;
@@ -240,11 +244,6 @@ nav {
   grid-template-columns: auto;
   grid-template-rows: 70px auto auto auto auto 50px;
   height: 100%;
-  grid-gap: 5px;
-}
-
-#grid-container > div {
-  background-color: pink;
 }
 
 #foot {

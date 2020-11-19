@@ -187,11 +187,12 @@ font-family: 'ABeeZee', sans-serif;
 
 }
 .peak,.cloud{
-    animation: swirl 3s 35s ease-out both;
-  
+    animation: swirl 3s ease-out both;
+    animation-delay: 3s;
+}
 .fas {
     margin-right: 8px;
-    animatio
+    
   }
 .nav-links{
     display:flex;
