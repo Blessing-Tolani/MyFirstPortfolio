@@ -187,7 +187,7 @@ font-family: 'ABeeZee', sans-serif;
 .grin{
     
     float:right;
-    animation: swirl 3s ease-out both;
+   
 
 }
 
@@ -316,14 +316,4 @@ border-left: thin solid #191820;
     }
 }
 
-@keyframes swirl {
-    0% {
-      transform: rotate(-540deg) scale(0);
-      opacity:0;
-    }
-    100% {
-        transform:  rotate(0) scale(1);
-        opacity:1;
-    }
-}
 

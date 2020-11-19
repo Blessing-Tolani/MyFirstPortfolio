@@ -199,7 +199,6 @@ nav {
 
 .grin {
   float: right;
-  animation: swirl 3s ease-out both;
 }
 
 .fas {
@@ -327,16 +326,5 @@ nav {
   }
   100% {
     transform: scale(0.8);
-  }
-}
-
-@keyframes swirl {
-  0% {
-    transform: rotate(-540deg) scale(0);
-    opacity: 0;
-  }
-  100% {
-    transform: rotate(0) scale(1);
-    opacity: 1;
   }
 }
