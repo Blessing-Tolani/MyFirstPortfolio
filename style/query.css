@@ -113,16 +113,16 @@
     background-color: #fbfeff;
     z-index: 20;
   }
+  .nav-links a:hover {
+    width: 0px;
+    background: none;
+    z-index: 50;
+    transition: none;
+    color: #800020;
+    font-size: 14px;
+  }
   .nav-links li {
     opacity: 0;
-  }
-  .nav-links li:hover {
-    background-color: #fbfeff;
-    width: 100%;
-  }
-  .nav-links li:hover .firstnav {
-    color: #191820;
-    padding-left: 40%;
   }
   .burger {
     display: block;
