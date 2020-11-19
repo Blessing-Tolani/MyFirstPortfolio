@@ -32,10 +32,10 @@ function Main(){
     return(
         <div id = "maintext">
             <div id = "text">
-                 <h4 className = "text1">Blessing ojo</h4>
-                 <h1 className = "text1">Front-End Developer <br /> from Nigeria </h1>
-                 <a className = "text1" target = "_blank" href = "https://drive.google.com/file/d/1FDQKsqHkutNvdi9SRDm5om_HQD5OLod9/view?usp=sharing"><button id = "button0">View My Resume</button></a>
-                 <a className = "text1" href = "#contact"><button id = "button">Get in Touch!</button></a>
+                 <h4 >Blessing ojo</h4>
+                 <h1 >Front-End Developer <br /> from Nigeria </h1>
+                 <a  target = "_blank" href = "https://drive.google.com/file/d/1FDQKsqHkutNvdi9SRDm5om_HQD5OLod9/view?usp=sharing"><button id = "button0">View My Resume</button></a>
+                 <a  href = "#contact"><button id = "button">Get in Touch!</button></a>
             </div>
             <div id = "grindiv"><img className = "grin" src = "/images/grin.png"/></div>
            
