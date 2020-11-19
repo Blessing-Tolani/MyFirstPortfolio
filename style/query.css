@@ -12,7 +12,6 @@
   .grin {
     padding-top: 0px;
     float: none;
-    border-radius: 20%;
   }
   #maintext {
     position: none;
@@ -142,7 +141,6 @@
 
 @media screen and (max-width: 580px) {
   .grin {
-    border-radius: 30%;
     width: 100%;
     height: 500px;
   }
@@ -169,7 +167,6 @@
     font-size: 1.8em;
   }
   .grin {
-    border-radius: 30%;
     width: 100%;
     height: 500px;
   }
@@ -196,7 +193,6 @@
     height: 300px;
   }
   .grin {
-    border-radius: 30%;
     width: 100%;
     height: 500px;
   }
@@ -219,7 +215,6 @@
     font-size: 13px;
   }
   .grin {
-    border-radius: 30%;
     width: 100%;
     height: 400px;
   }

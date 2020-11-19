@@ -12,10 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: #e6cdb1;
-}
-
 button {
   margin: 30px 0px;
   font-family: 'Open Sans', sans-serif;
@@ -195,9 +191,13 @@ nav {
 }
 
 .grin {
-  padding-top: 80px;
   float: right;
-  border-radius: 30%;
+  animation: swirl 3s ease-out both;
+}
+
+.peak, .cloud {
+  animation: swirl 3s ease-out both;
+  animation-delay: 3s;
 }
 
 .fas {
@@ -218,11 +218,15 @@ nav {
   font-weight: bold;
 }
 
+.nav-links li {
+  transition: background 2s;
+}
+
 .nav-links li:hover {
   color: #191820;
   width: 90px;
   padding: 15px;
-  background-color: #b64763;
+  background: #b64763;
   z-index: 50;
 }
 
@@ -236,6 +240,11 @@ nav {
   grid-template-columns: auto;
   grid-template-rows: 70px auto auto auto auto 50px;
   height: 100%;
+  grid-gap: 5px;
+}
+
+#grid-container > div {
+  background-color: pink;
 }
 
 #foot {
@@ -329,5 +338,16 @@ nav {
   }
   100% {
     transform: scale(0.8);
+  }
+}
+
+@keyframes swirl {
+  0% {
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
   }
 }

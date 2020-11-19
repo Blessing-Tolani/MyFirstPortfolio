@@ -67,19 +67,19 @@ function Main() {
             { id: "text" },
             React.createElement(
                 "h4",
-                null,
+                { className: "text1" },
                 "Blessing ojo"
             ),
             React.createElement(
                 "h1",
-                null,
+                { className: "text1" },
                 "Front-End Developer ",
                 React.createElement("br", null),
                 " from Nigeria "
             ),
             React.createElement(
                 "a",
-                null,
+                { className: "text1", target: "_blank", href: "https://drive.google.com/file/d/1FDQKsqHkutNvdi9SRDm5om_HQD5OLod9/view?usp=sharing" },
                 React.createElement(
                     "button",
                     { id: "button0" },
@@ -88,7 +88,7 @@ function Main() {
             ),
             React.createElement(
                 "a",
-                { href: "#contact" },
+                { className: "text1", href: "#contact" },
                 React.createElement(
                     "button",
                     { id: "button" },
@@ -98,8 +98,38 @@ function Main() {
         ),
         React.createElement(
             "div",
-            null,
-            React.createElement("img", { className: "grin", src: "/images/grin.jpg" })
+            { id: "grindiv" },
+            React.createElement("img", { className: "grin", src: "/images/grin.png" })
+        )
+    );
+}
+function About() {
+    return React.createElement(
+        "div",
+        { id: "about0" },
+        React.createElement(
+            "div",
+            { id: "abouthead" },
+            React.createElement(
+                "h2",
+                null,
+                "ABOUT ME"
+            )
+        ),
+        React.createElement(
+            "div",
+            { id: "abouttext" },
+            React.createElement(
+                "p",
+                null,
+                "I'm Blessing - Front End Developer in an Amazing way. ",
+                React.createElement("br", null),
+                "I love designs, illustrations, animations and building user interface from components.",
+                React.createElement("br", null),
+                "I am on a mission of building websites with semantic artwork, intuitive functionality and slick performance for Businesses to appeal to their clients. ",
+                React.createElement("br", null),
+                "My vision is to be one of the best developers in the world."
+            )
         )
     );
 }
@@ -110,15 +140,15 @@ function Project() {
         { id: "project" },
         React.createElement(
             "h2",
-            null,
+            { className: "all" },
             "WORKS"
         ),
         React.createElement(
             "a",
-            { className: "ap", href: "#" },
+            { className: "ap", target: "_blank", href: "https://sagittiform-forehea.000webhostapp.com/" },
             React.createElement(
                 "div",
-                { className: "bigdiv" },
+                { className: "bigdiv all" },
                 React.createElement(
                     "h4",
                     { className: "divtext" },
@@ -140,10 +170,10 @@ function Project() {
         ),
         React.createElement(
             "a",
-            { className: "ap", href: "#" },
+            { className: "ap", target: "_blank", href: "https://wordcloud-generator-ub.herokuapp.com/" },
             React.createElement(
                 "div",
-                { className: "bigdiv" },
+                { className: "bigdiv all" },
                 React.createElement(
                     "h4",
                     { className: "divtext" },
@@ -189,44 +219,13 @@ function Footer() {
     );
 }
 
-function About() {
-    return React.createElement(
-        "div",
-        { id: "about" },
-        React.createElement(
-            "div",
-            { id: "abouthead" },
-            React.createElement(
-                "h2",
-                null,
-                "ABOUT ME"
-            )
-        ),
-        React.createElement(
-            "div",
-            { id: "abouttext" },
-            React.createElement(
-                "p",
-                null,
-                "I'm Blessing - Front End Developer in an Amazing way. ",
-                React.createElement("br", null),
-                "I love designs, illustrations, animations and building user interface from components.",
-                React.createElement("br", null),
-                "I am on a mission of building websites with semantic artwork, intuitive functionality and slick performance for Businesses to appeal to their clients. ",
-                React.createElement("br", null),
-                "My vision is to be one of the best developers in the world."
-            )
-        )
-    );
-}
-
 function SocialMedia() {
     return React.createElement(
         "div",
         { id: "socialmedia" },
         React.createElement(
             "div",
-            null,
+            { id: "soc" },
             React.createElement(
                 "h3",
                 { id: "media" },

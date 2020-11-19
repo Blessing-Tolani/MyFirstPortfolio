@@ -31,14 +31,31 @@ function NavBar(){
 function Main(){
     return(
         <div id = "maintext">
-             <div id = "text">
-                 <h4>Blessing ojo</h4>
-                 <h1>Front-End Developer <br /> from Nigeria </h1>
-                 <a><button id = "button0">View My Resume</button></a>
-                 <a href = "#contact"><button id = "button">Get in Touch!</button></a>
+            <div id = "text">
+                 <h4 className = "text1">Blessing ojo</h4>
+                 <h1 className = "text1">Front-End Developer <br /> from Nigeria </h1>
+                 <a className = "text1" target = "_blank" href = "https://drive.google.com/file/d/1FDQKsqHkutNvdi9SRDm5om_HQD5OLod9/view?usp=sharing"><button id = "button0">View My Resume</button></a>
+                 <a className = "text1" href = "#contact"><button id = "button">Get in Touch!</button></a>
             </div>
-            <div><img className = "grin" src = "/images/grin.jpg"/></div>
+            <div id = "grindiv"><img className = "grin" src = "/images/grin.png"/></div>
            
+        </div>
+    )
+}
+function About(){
+    return(
+        <div id = "about0">
+           <div  id = "abouthead">
+               <h2>ABOUT ME</h2>
+           </div>
+           <div id = "abouttext">
+               <p>I'm Blessing - Front End Developer in an Amazing way. <br />
+                I love designs, illustrations, animations and building user interface from components.<br/>
+                I am on a mission of building websites with semantic artwork, intuitive functionality 
+                and slick performance for Businesses to appeal to their clients. <br />
+                My vision is to be one of the best developers in the world.
+                </p>
+           </div>
         </div>
     )
 }
@@ -46,16 +63,16 @@ function Main(){
 function Project(){
     return(
         <div id = "project">
-            <h2>WORKS</h2>
-            <a className = "ap" href = "#"><div className = "bigdiv">
+            <h2 className  = "all">WORKS</h2>
+            <a className = "ap" target = "_blank" href = "https://sagittiform-forehea.000webhostapp.com/"><div className = "bigdiv all">
                 <h4 className = "divtext">Peak tutors</h4>
                 <h1 className = "divtext2">Tutorial Eportal <br /> Design</h1>
                 <div><img className = "peak" src = "/images/peak.png"/></div>
             </div></a>
-            <a className = "ap" href = "#"><div className = "bigdiv">
+            <a className = "ap" target = "_blank" href = "https://wordcloud-generator-ub.herokuapp.com/"><div className = "bigdiv all">
                 <h4 className = "divtext">wordcloud generator</h4>
                 <h1 className = "divtext2">Generate  Your  <br />WordCloud</h1>
-                <div><img className = "cloud" src = "/images/cloud.png"/></div>
+                <div><img className = "cloud " src = "/images/cloud.png"/></div>
             </div></a>
         </div>
     )
@@ -72,23 +89,7 @@ function Footer(){
     )
 }
 
-function About(){
-    return(
-        <div id = "about">
-           <div  id = "abouthead">
-               <h2>ABOUT ME</h2>
-           </div>
-           <div id = "abouttext">
-               <p>I'm Blessing - Front End Developer in an Amazing way. <br />
-                I love designs, illustrations, animations and building user interface from components.<br/>
-                I am on a mission of building websites with semantic artwork, intuitive functionality 
-                and slick performance for Businesses to appeal to their clients. <br />
-                My vision is to be one of the best developers in the world.
-                </p>
-           </div>
-        </div>
-    )
-}
+
 
 function SocialMedia(){
     return(
