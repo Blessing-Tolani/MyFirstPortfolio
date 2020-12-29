@@ -78,14 +78,22 @@ function Project(){
         <div id = "project">
             <h2 className  = "all">WORKS</h2>
             <a className = "ap" target = "_blank" href = "https://sagittiform-forehea.000webhostapp.com/"><div className = "bigdiv all">
-                <h4 className = "divtext">Peak tutors</h4>
-                <h1 className = "divtext2">Tutorial Eportal <br /> Design</h1>
-                <div><img className = "peak" src = "/images/peak.png"/></div>
+                <h4 className = "divtext">Cubes</h4>
+                <div><img className = "peak" src = "/images/Cubesnew.png"/></div>
             </div></a>
             <a className = "ap" target = "_blank" href = "https://wordcloud-generator-ub.herokuapp.com/"><div className = "bigdiv all">
-                <h4 className = "divtext">wordcloud generator</h4>
-                <h1 className = "divtext2">Generate  Your  <br />WordCloud</h1>
-                <div><img className = "cloud " src = "/images/cloud.png"/></div>
+                <h4 className = "divtext">Recipe villa</h4>
+                <div><img className = "cloud " src = "/images/recipe.png"/></div>
+            </div></a>
+            <a className = "ap" target = "_blank" href = "https://wordcloud-generator-ub.herokuapp.com/"><div className = "bigdiv all">
+                <h4 className = "divtext">Media Agency website</h4>
+                
+                <div><img className = "cloud " src = "/images/ahamedia.png"/></div>
+            </div></a>
+            <a className = "ap" target = "_blank" href = "https://wordcloud-generator-ub.herokuapp.com/"><div className = "bigdiv all">
+                <h4 className = "divtext">Tutorial Eportal design</h4>
+            
+                <div><img className = "cloud " src = "/images/peak.png"/></div>
             </div></a>
         </div>
     )

@@ -172,19 +172,12 @@ function Project() {
                 React.createElement(
                     "h4",
                     { className: "divtext" },
-                    "Peak tutors"
-                ),
-                React.createElement(
-                    "h1",
-                    { className: "divtext2" },
-                    "Tutorial Eportal ",
-                    React.createElement("br", null),
-                    " Design"
+                    "Cubes"
                 ),
                 React.createElement(
                     "div",
                     null,
-                    React.createElement("img", { className: "peak", src: "/images/peak.png" })
+                    React.createElement("img", { className: "peak", src: "/images/Cubesnew.png" })
                 )
             )
         ),
@@ -197,19 +190,48 @@ function Project() {
                 React.createElement(
                     "h4",
                     { className: "divtext" },
-                    "wordcloud generator"
-                ),
-                React.createElement(
-                    "h1",
-                    { className: "divtext2" },
-                    "Generate  Your  ",
-                    React.createElement("br", null),
-                    "WordCloud"
+                    "Recipe villa"
                 ),
                 React.createElement(
                     "div",
                     null,
-                    React.createElement("img", { className: "cloud ", src: "/images/cloud.png" })
+                    React.createElement("img", { className: "cloud ", src: "/images/recipe.png" })
+                )
+            )
+        ),
+        React.createElement(
+            "a",
+            { className: "ap", target: "_blank", href: "https://wordcloud-generator-ub.herokuapp.com/" },
+            React.createElement(
+                "div",
+                { className: "bigdiv all" },
+                React.createElement(
+                    "h4",
+                    { className: "divtext" },
+                    "Media Agency website"
+                ),
+                React.createElement(
+                    "div",
+                    null,
+                    React.createElement("img", { className: "cloud ", src: "/images/ahamedia.png" })
+                )
+            )
+        ),
+        React.createElement(
+            "a",
+            { className: "ap", target: "_blank", href: "https://wordcloud-generator-ub.herokuapp.com/" },
+            React.createElement(
+                "div",
+                { className: "bigdiv all" },
+                React.createElement(
+                    "h4",
+                    { className: "divtext" },
+                    "Tutorial Eportal design"
+                ),
+                React.createElement(
+                    "div",
+                    null,
+                    React.createElement("img", { className: "cloud ", src: "/images/peak.png" })
                 )
             )
         )
