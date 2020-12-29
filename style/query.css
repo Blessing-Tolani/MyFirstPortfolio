@@ -142,7 +142,7 @@
     display: flex;
   }
   .nav-active + .burger {
-    background-color: #800020;
+    background-color: #006DD4;
   }
   .grin {
     height: 600px;
@@ -185,7 +185,6 @@
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
     cursor: pointer;
-    font-weight: 900;
     font-size: 15px;
   }
   #button {
@@ -221,7 +220,6 @@
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
     cursor: pointer;
-    font-weight: 900;
     font-size: 13px;
   }
   .grin {
