@@ -20,7 +20,6 @@ function NavBar() {
                     React.createElement(
                         "a",
                         { className: "firstnav", href: "#about" },
-                        React.createElement("i", { className: "fas fa-user foo" }),
                         "About"
                     )
                 ),
@@ -30,7 +29,6 @@ function NavBar() {
                     React.createElement(
                         "a",
                         { className: "firstnav", href: "#project" },
-                        React.createElement("i", { className: "fas fa-clone foo" }),
                         "Works"
                     ),
                     " "
@@ -40,8 +38,16 @@ function NavBar() {
                     null,
                     React.createElement(
                         "a",
+                        { className: "firstnav", href: "https://tolani.hashnode.dev/" },
+                        "Blog"
+                    )
+                ),
+                React.createElement(
+                    "li",
+                    null,
+                    React.createElement(
+                        "a",
                         { className: "firstnav", href: "#contact" },
-                        React.createElement("i", { className: "fas fa-phone foo" }),
                         "Contact"
                     )
                 )

@@ -8,10 +8,10 @@ function NavBar(){
                 </div>
                 <ul className ="nav-links">
                     
-                    <li><a className ="firstnav"   href = "#about"><i className  = "fas fa-user foo"></i>About</a></li>
-                    <li><a className ="firstnav"  href = "#project"><i className  = "fas fa-clone foo"></i>Works</a> </li>
-
-                    <li><a className ="firstnav"  href = "#contact"><i className  = "fas fa-phone foo"></i>Contact</a></li>
+                    <li><a className ="firstnav"   href = "#about">About</a></li>
+                    <li><a className ="firstnav"  href = "#project">Works</a> </li>
+                     <li><a className ="firstnav"  href = "https://tolani.hashnode.dev/">Blog</a></li>
+                    <li><a className ="firstnav"  href = "#contact">Contact</a></li>
                 
                 </ul>
                 <div className  = "burger">
