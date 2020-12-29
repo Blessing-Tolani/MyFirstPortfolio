@@ -90,7 +90,7 @@ function Main() {
             ),
             React.createElement(
                 "a",
-                { target: "_blank", href: "https://drive.google.com/file/d/1FDQKsqHkutNvdi9SRDm5om_HQD5OLod9/view?usp=sharing" },
+                { target: "_blank", href: "https://drive.google.com/file/d/1K6I81jxVmTk5wmr7WxJ5FQQEFRg0ngDo/view?usp=drivesdk" },
                 React.createElement(
                     "button",
                     { id: "button0" },

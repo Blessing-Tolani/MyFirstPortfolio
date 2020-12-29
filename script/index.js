@@ -40,7 +40,7 @@ function Main(){
             <div id = "text">
                  <h4 >Blessing ojo</h4>
                  <h1 >Front-End Developer <br /> from Nigeria </h1>
-                 <a  target = "_blank" href = "https://drive.google.com/file/d/1FDQKsqHkutNvdi9SRDm5om_HQD5OLod9/view?usp=sharing"><button id = "button0">View My Resume</button></a>
+                 <a  target = "_blank" href = "https://drive.google.com/file/d/1K6I81jxVmTk5wmr7WxJ5FQQEFRg0ngDo/view?usp=drivesdk"><button id = "button0">View My Resume</button></a>
                  <a  href = "#contact"><button id = "button">Get in Touch!</button></a>
             </div>
             <div id = "grindiv"><img className = "grin" src = "/images/grin.png"/></div>
