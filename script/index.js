@@ -1,8 +1,4 @@
 
-
-
-
-
 function NavBar(){
     return(
         <div>
@@ -13,7 +9,7 @@ function NavBar(){
                 <ul className ="nav-links">
                     
                     <li><a className ="firstnav"   href = "#about"><i className  = "fas fa-user foo"></i>About</a></li>
-                    <li><a className ="firstnav"  href = "#project"><i className  = "fas fa-clone foo"></i>Projects</a> </li>
+                    <li><a className ="firstnav"  href = "#project"><i className  = "fas fa-clone foo"></i>Works</a> </li>
 
                     <li><a className ="firstnav"  href = "#contact"><i className  = "fas fa-phone foo"></i>Contact</a></li>
                 
@@ -31,6 +27,16 @@ function NavBar(){
 function Main(){
     return(
         <div id = "maintext">
+            <div>
+                <img  src="/images/triangle1.svg" className="triangle1 fig" alt="" width="19" height="21"  />
+                <img  src="https://droitthemes.com/wp/makro/wp-content/uploads/2020/04/shape_1-1-1.png" className="shape1 fig" alt="" width="60" height="40" />
+                <img  src="/images/circle1.svg" className="dot1 fig " alt="" width="10" height="10" />
+                <img  src="/images/circle3.svg" className="dot3 fig" alt="" width="20" height="20" />
+                <img  src="https://droitthemes.com/wp/makro/wp-content/uploads/2020/04/shape_1-1-1.png" className="shape2 fig" alt=""  width="60" height="40" />
+                <img   src="/images/triangle2.svg" className="triangle2 fig" alt=""  width="19" height="21" />
+                <img  src="/images/dot4.svg" className="dot4 fig" alt="" width="10" height="10" /> 
+                <img   src="https://droitthemes.com/wp/makro/wp-content/uploads/2020/04/dot_6-1.png" className="dot5 fig" alt="" width="24" height="24" />
+            </div>
             <div id = "text">
                  <h4 >Blessing ojo</h4>
                  <h1 >Front-End Developer <br /> from Nigeria </h1>
@@ -45,6 +51,13 @@ function Main(){
 function About(){
     return(
         <div id = "about0">
+            <div>
+                <img data-speed = "-5"  src="/images/triangle12.svg" className="triangle1 img" alt=""  width="19" height="21" />
+                <img data-speed = "-5"  src="/images/dot6.svg" className="dot5 img" alt="" width="24" height="24" />
+                <img data-speed = "-5"  src="/images/dot2.svg" className="dot2 img" alt=""  width="14" height="14" />
+                <img data-speed = "-5"  src="/images/dot5.svg" className="dot6 img" alt=""  width="20" height="20" />
+                <img data-speed = "2"  src="/images/triangle3.svg" className="triangle3 img" alt="" width="19" height="21" />
+            </div>
            <div  id = "abouthead">
                <h2>ABOUT ME</h2>
            </div>

@@ -7,11 +7,16 @@
 a{
     text-decoration: none;
 }
+.companyname{
+    visibility: hidden;
+}
 html{
     scroll-behavior: smooth;
+    
 }
 body{
-  background-color: #e6cdb1 ;
+
+  background-color: hsl(208, 43, 83);
 }
 button{
     margin:30px 0px;
@@ -19,42 +24,42 @@ button{
     padding:10px ;
     border-radius:2em;
     cursor: pointer;
-    font-weight:900;
-    font-size: 16px;
+    font-size: 15px;
     outline:none;
-  // height:40px;
+  
   
 
     
 }
 #button{  
-    background: linear-gradient(to right, #e6cdb1 50%,#800020 50%);
+    background: linear-gradient(to right, hsl(208, 43, 83) 50%,#006DD4 50%);
     transition: all .5s ease-out;
     background-position: right bottom;
     background-size: 200% 100%;
     width:150px;
     height:40px;
-    color:#e5e0da;
+    color: hsl(208, 43, 83);
     margin-left:20px;
     text-align: center;
-    border:1px solid #800020;
+    border:1px solid #006DD4;
     &:hover{
         background-position: left bottom;
-        color:#800020;
+        color:#006DD4;
     }
 }
 #button0{
-    background: linear-gradient(to right, #800020 50%,#e6cdb1 50%);
+    background: linear-gradient(to right, #006DD4 50%, hsl(208, 43, 83) 50%);
     transition: all .5s ease-out;
     background-position: right bottom;
     background-size: 200% 100%;
     width:170px;
-    color:#800020;
+    
+    color:#006DD4;
     text-align: center;
-    border:1px solid #800020;
+    border:1px solid #006DD4;
     &:hover{
         background-position: left bottom;
-        color:#e5e0da;
+        color:hsl(208, 43, 83);
     }
 }
 html,body{
@@ -124,7 +129,7 @@ font-family: 'ABeeZee', sans-serif;
   
     >h1{
         
-        font-family: 'ABeeZee', sans-serif;
+        font-family: 'Sofia';
         text-align:left;
         color: #191820;
         font-size: 3.5em;
@@ -155,7 +160,7 @@ font-family: 'ABeeZee', sans-serif;
   
     margin:2.5%;
     &:hover{
-        background-color: #800020;
+        background-color: #006DD4;
         animation:scale-down 0.5s cubic-bezier(0.250,0.460,0.450,0.940) both;
 }
 }
@@ -204,11 +209,10 @@ font-family: 'ABeeZee', sans-serif;
     a{
         text-decoration: none;
         color:#191820;
-        font-weight: bold;
         padding:15px; 
         &:hover{
             width:90px;
-            background:#b64763;
+            background:#76aee2;
             z-index:50;
             transition:background 2s;
             color:white;
@@ -283,17 +287,17 @@ border-left: thin solid #191820;
 .fa-envelope,.fa-linkedin{
     color:#191820;
     &:hover{
-        color:#800020;
+        color:#006DD4;
     }
 }
 #media{
-    font-size:35px;
+    font-size:30px;
     font-family: 'Roboto Slab', serif;
    
 
 }
 #pro{
-    color:#800020;
+    color:#006DD4;
     padding-left:10px;
 }
 

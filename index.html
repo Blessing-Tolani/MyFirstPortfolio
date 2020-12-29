@@ -6,16 +6,18 @@
     <title>Blessingojo</title>
     <link rel = "stylesheet" href = "/style/index.css" type = "text/css">
     <link rel = "stylesheet" href = "/style/query.css" type = "text/css">
+    <link rel = "stylesheet" href = "/style/animation.css" type = "text/css">
+    <link rel = "stylesheet" href = "/style/queryanim.css" type = "text/css">
     <script src = "https://kit.fontawesome.com/a076d05399.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=PT+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=PT+Sans&family=Sofia&family=Roboto+Slab&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script> 
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 </head>
 <body>
     <div id="grid-container">
         <div id="header" class="grid-items"></div>
-        <div id="main" class="grid-items"></div>
-        <div id="about" class="grid-items"></div>
+        <div id="main" class="grid-items main"></div>
+        <div id="about" class="grid-items article"></div>
         <div id="project" class="grid-items"></div>
         <div id="contact" class="grid-items"></div>
         <div id="footer" class="grid-items"></div>
@@ -31,7 +33,7 @@
         },
         opacity:0, 
         duration:3, 
-        y:500
+        y:200
         })
 
         gsap.from('#grindiv', {
@@ -41,7 +43,7 @@
         },
         opacity:0, 
         duration:3, 
-        y:500,
+        y:200,
         delay:2
         })
 
@@ -53,7 +55,7 @@
         },
         opacity:0, 
         duration:3, 
-        y:300
+        y:200
         })
 
         gsap.from('#abouttext', {
@@ -63,7 +65,7 @@
         },
         opacity:0, 
         duration:3, 
-        y:300
+        y:200
         })
         gsap.from('.all',{
         scrollTrigger:{
@@ -71,24 +73,14 @@
             start:"top 45%"
         },
         duration:2,
-        y:500,
+        y:200,
         scale:0,
         stagger:0.6,
         ease:"circ",
         opacity:0,
         delay:1
         })
-        gsap.from('#socialmedia', {
-        scrollTrigger:{
-            trigger:'#contact',
-            start:"top 80%"
-        },
-        opacity:0, 
-        duration:2,
-        y:100,
-        delay:1
-        
-        })
+       
     </script>
 </body>
 </html>

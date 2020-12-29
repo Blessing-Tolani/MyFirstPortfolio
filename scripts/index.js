@@ -1,5 +1,4 @@
 
-
 function NavBar() {
     return React.createElement(
         "div",
@@ -32,7 +31,7 @@ function NavBar() {
                         "a",
                         { className: "firstnav", href: "#project" },
                         React.createElement("i", { className: "fas fa-clone foo" }),
-                        "Projects"
+                        "Works"
                     ),
                     " "
                 ),
@@ -64,22 +63,34 @@ function Main() {
         { id: "maintext" },
         React.createElement(
             "div",
+            null,
+            React.createElement("img", { src: "/images/triangle1.svg", className: "triangle1 fig", alt: "", width: "19", height: "21" }),
+            React.createElement("img", { src: "https://droitthemes.com/wp/makro/wp-content/uploads/2020/04/shape_1-1-1.png", className: "shape1 fig", alt: "", width: "60", height: "40" }),
+            React.createElement("img", { src: "/images/circle1.svg", className: "dot1 fig ", alt: "", width: "10", height: "10" }),
+            React.createElement("img", { src: "/images/circle3.svg", className: "dot3 fig", alt: "", width: "20", height: "20" }),
+            React.createElement("img", { src: "https://droitthemes.com/wp/makro/wp-content/uploads/2020/04/shape_1-1-1.png", className: "shape2 fig", alt: "", width: "60", height: "40" }),
+            React.createElement("img", { src: "/images/triangle2.svg", className: "triangle2 fig", alt: "", width: "19", height: "21" }),
+            React.createElement("img", { src: "/images/dot4.svg", className: "dot4 fig", alt: "", width: "10", height: "10" }),
+            React.createElement("img", { src: "https://droitthemes.com/wp/makro/wp-content/uploads/2020/04/dot_6-1.png", className: "dot5 fig", alt: "", width: "24", height: "24" })
+        ),
+        React.createElement(
+            "div",
             { id: "text" },
             React.createElement(
                 "h4",
-                { className: "text1" },
+                null,
                 "Blessing ojo"
             ),
             React.createElement(
                 "h1",
-                { className: "text1" },
+                null,
                 "Front-End Developer ",
                 React.createElement("br", null),
                 " from Nigeria "
             ),
             React.createElement(
                 "a",
-                { className: "text1", target: "_blank", href: "https://drive.google.com/file/d/1FDQKsqHkutNvdi9SRDm5om_HQD5OLod9/view?usp=sharing" },
+                { target: "_blank", href: "https://drive.google.com/file/d/1FDQKsqHkutNvdi9SRDm5om_HQD5OLod9/view?usp=sharing" },
                 React.createElement(
                     "button",
                     { id: "button0" },
@@ -88,7 +99,7 @@ function Main() {
             ),
             React.createElement(
                 "a",
-                { className: "text1", href: "#contact" },
+                { href: "#contact" },
                 React.createElement(
                     "button",
                     { id: "button" },
@@ -107,6 +118,15 @@ function About() {
     return React.createElement(
         "div",
         { id: "about0" },
+        React.createElement(
+            "div",
+            null,
+            React.createElement("img", { "data-speed": "-5", src: "/images/triangle12.svg", className: "triangle1 img", alt: "", width: "19", height: "21" }),
+            React.createElement("img", { "data-speed": "-5", src: "/images/dot6.svg", className: "dot5 img", alt: "", width: "24", height: "24" }),
+            React.createElement("img", { "data-speed": "-5", src: "/images/dot2.svg", className: "dot2 img", alt: "", width: "14", height: "14" }),
+            React.createElement("img", { "data-speed": "-5", src: "/images/dot5.svg", className: "dot6 img", alt: "", width: "20", height: "20" }),
+            React.createElement("img", { "data-speed": "2", src: "/images/triangle3.svg", className: "triangle3 img", alt: "", width: "19", height: "21" })
+        ),
         React.createElement(
             "div",
             { id: "abouthead" },
@@ -189,7 +209,7 @@ function Project() {
                 React.createElement(
                     "div",
                     null,
-                    React.createElement("img", { className: "cloud", src: "/images/cloud.png" })
+                    React.createElement("img", { className: "cloud ", src: "/images/cloud.png" })
                 )
             )
         )
@@ -225,7 +245,7 @@ function SocialMedia() {
         { id: "socialmedia" },
         React.createElement(
             "div",
-            { id: "soc" },
+            null,
             React.createElement(
                 "h3",
                 { id: "media" },

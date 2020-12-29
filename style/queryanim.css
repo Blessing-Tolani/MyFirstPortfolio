@@ -1,0 +1,282 @@
+@media screen and (max-width: 1050px) {
+  .main .fig.triangle1 {
+    position: absolute;
+    top: 0px;
+    left: 10%;
+  }
+  .main .fig.dot3 {
+    position: absolute;
+    top: 150px;
+    left: 20%;
+  }
+  .main .fig.dot5 {
+    position: absolute;
+    top: 300px;
+    left: 60%;
+  }
+  .article .img.dot2 {
+    position: absolute;
+    top: -300px;
+    left: 90%;
+  }
+  .dot3 {
+    -webkit-animation: verticalmove 1s infinite alternate;
+            animation: verticalmove 1s infinite alternate;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main .fig.triangle1 {
+    position: absolute;
+    top: 0px;
+    left: 10%;
+  }
+  .main .fig.shape2 {
+    position: absolute;
+    top: 20px;
+    left: 85%;
+    width: 60px;
+    height: 40px;
+  }
+  .main .fig.shape1 {
+    width: 60px;
+    height: 40px;
+  }
+  .main .fig.dot4 {
+    position: absolute;
+    top: 150px;
+    left: 10%;
+  }
+  .main .fig.dot3 {
+    position: absolute;
+    top: 170px;
+    display: none;
+    left: 50%;
+  }
+  .main .fig.triangle2 {
+    position: absolute;
+    top: 200px;
+    left: 90%;
+  }
+  .main .fig.dot5 {
+    position: absolute;
+    top: 350px;
+    left: 60%;
+  }
+  .article .img {
+    position: absolute;
+    top: 80px;
+    left: 200px;
+  }
+  .article .img.dot5 {
+    position: absolute;
+    top: 20px;
+    left: 80%;
+  }
+  .article .img.dot6 {
+    position: relative;
+    top: 250px;
+    left: 5%;
+  }
+  .article .img.dot2 {
+    position: absolute;
+    top: -300px;
+    left: 90%;
+  }
+  .dot4 {
+    -webkit-animation: verticalmove 1s infinite alternate;
+            animation: verticalmove 1s infinite alternate;
+  }
+  .dot3 {
+    -webkit-animation: zoominout1 4000ms infinite alternate;
+            animation: zoominout1 4000ms infinite alternate;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  @-webkit-keyframes blink {
+    from {
+      -webkit-clip-path: circle(0px);
+              clip-path: circle(0px);
+    }
+    to {
+      -webkit-clip-path: circle(145px);
+              clip-path: circle(145px);
+    }
+  }
+  @keyframes blink {
+    from {
+      -webkit-clip-path: circle(0px);
+              clip-path: circle(0px);
+    }
+    to {
+      -webkit-clip-path: circle(145px);
+              clip-path: circle(145px);
+    }
+  }
+  .image {
+    -webkit-clip-path: circle(145px);
+            clip-path: circle(145px);
+  }
+  .main .fig.dot1 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+  .article .img {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+  }
+  .article .img.dot2 {
+    position: absolute;
+    top: 500px;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  @-webkit-keyframes blink {
+    from {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-clip-path: none;
+              clip-path: none;
+    }
+    to {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-clip-path: none;
+              clip-path: none;
+    }
+  }
+  @keyframes blink {
+    from {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-clip-path: none;
+              clip-path: none;
+    }
+    to {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-clip-path: none;
+              clip-path: none;
+    }
+  }
+  .image {
+    height: 199px;
+    width: 300px;
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  .main .fig {
+    position: absolute;
+    top: 30px;
+    left: 4%;
+  }
+  .main .fig.dot1 {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+  }
+  .main .fig.dot3 {
+    position: absolute;
+    top: 170px;
+    display: none;
+    left: 50%;
+  }
+  .main .fig.dot4 {
+    position: absolute;
+    top: 30px;
+    left: 90%;
+  }
+  .main .fig.triangle2 {
+    position: absolute;
+    top: 200px;
+    left: 90%;
+  }
+  .main .fig.dot5 {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+  }
+  .main .fig.shape1 {
+    position: absolute;
+    top: 105%;
+    left: 45%;
+    width: 60px;
+    height: 40px;
+  }
+  @-webkit-keyframes bounce {
+    from {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    to {
+      -webkit-transform: translate3d(0, 20px, 0);
+              transform: translate3d(0, 20px, 0);
+    }
+  }
+  @keyframes bounce {
+    from {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    to {
+      -webkit-transform: translate3d(0, 20px, 0);
+              transform: translate3d(0, 20px, 0);
+    }
+  }
+  .dot4 {
+    -webkit-animation: zoominout 4000ms infinite alternate;
+            animation: zoominout 4000ms infinite alternate;
+  }
+  .article .img.dot5 {
+    position: absolute;
+    top: 40px;
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .article .img {
+    position: absolute;
+    top: -500px;
+    left: 200px;
+  }
+  .article .img.dot2 {
+    position: absolute;
+    top: 600px;
+    left: 30%;
+  }
+  .article .img.triangle3 {
+    position: absolute;
+    top: 150px;
+    left: 90%;
+  }
+  .main .fig {
+    position: absolute;
+    top: 30px;
+    left: 4%;
+  }
+  .main .fig.shape2 {
+    position: absolute;
+    top: 300px;
+    left: 10%;
+  }
+  .main .fig.dot5 {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .article .img {
+    position: absolute;
+    top: -450px;
+    left: 200px;
+  }
+}
+/*# sourceMappingURL=queryanim.css.map */
