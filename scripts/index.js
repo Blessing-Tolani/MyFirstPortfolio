@@ -165,7 +165,7 @@ function Project() {
         ),
         React.createElement(
             "a",
-            { className: "ap", target: "_blank", href: "https://sagittiform-forehea.000webhostapp.com/" },
+            { className: "ap", href: "http://pvcubes.netlify.app/" },
             React.createElement(
                 "div",
                 { className: "bigdiv all" },
@@ -183,7 +183,7 @@ function Project() {
         ),
         React.createElement(
             "a",
-            { className: "ap", target: "_blank", href: "https://wordcloud-generator-ub.herokuapp.com/" },
+            { className: "ap", href: "https://getarecipe.netlify.app/" },
             React.createElement(
                 "div",
                 { className: "bigdiv all" },
@@ -201,7 +201,7 @@ function Project() {
         ),
         React.createElement(
             "a",
-            { className: "ap", target: "_blank", href: "https://wordcloud-generator-ub.herokuapp.com/" },
+            { className: "ap", href: "https://ahamedia.netlify.app/" },
             React.createElement(
                 "div",
                 { className: "bigdiv all" },
@@ -219,7 +219,7 @@ function Project() {
         ),
         React.createElement(
             "a",
-            { className: "ap", target: "_blank", href: "https://wordcloud-generator-ub.herokuapp.com/" },
+            { className: "ap", href: "https://sagittiform-forehea.000webhostapp.com/" },
             React.createElement(
                 "div",
                 { className: "bigdiv all" },
