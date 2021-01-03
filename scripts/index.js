@@ -96,7 +96,7 @@ function Main() {
             ),
             React.createElement(
                 "a",
-                { target: "_blank", href: "https://drive.google.com/file/d/1K6I81jxVmTk5wmr7WxJ5FQQEFRg0ngDo/view?usp=drivesdk" },
+                { target: "_blank", href: "https://drive.google.com/file/d/1g8n-StuNkRXcJKPkF-Z2O18UwI_uxuNy/view?usp=sharing" },
                 React.createElement(
                     "button",
                     { id: "button0" },
