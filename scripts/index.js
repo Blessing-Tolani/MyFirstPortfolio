@@ -178,7 +178,7 @@ function Project() {
                 React.createElement(
                     "h4",
                     { className: "divtext" },
-                    "Award Nomination website"
+                    "Award Nomination"
                 ),
                 React.createElement(
                     "div",
