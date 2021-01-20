@@ -51,7 +51,8 @@
         gsap.from('#abouthead', {
         scrollTrigger:{
             trigger:'#about',
-            start:"top 10%"
+            toggleActions: "play none none reverse",
+            start:"top 40%"
         },
         opacity:0, 
         duration:3, 
@@ -61,7 +62,8 @@
         gsap.from('#abouttext', {
         scrollTrigger:{
             trigger:'#about',
-            start:"top 10%"
+            toggleActions: "play none none reverse",
+            start:"top 40%"
         },
         opacity:0, 
         duration:3, 
@@ -70,6 +72,7 @@
         gsap.from('.all',{
         scrollTrigger:{
             trigger:'#project',
+            toggleActions: "play none none reverse",
             start:"top 45%"
         },
         duration:2,
