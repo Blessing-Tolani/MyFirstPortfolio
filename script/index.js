@@ -77,6 +77,10 @@ function Project(){
     return(
         <div id = "project">
             <h2 className  = "all">WORKS</h2>
+            <a className = "ap" href = "http://awardies.netlify.app/"><div className = "bigdiv all">
+                <h4 className = "divtext">Award Nomination website</h4>
+                <div><img className = "peak " src = "/images/use3.png"/></div>
+            </div></a>
             <a className = "ap" href = "http://pvcubes.netlify.app/"><div className = "bigdiv all">
                 <h4 className = "divtext">Cubes</h4>
                 <div><img className = "peak" src = "/images/Cubesnew.png"/></div>

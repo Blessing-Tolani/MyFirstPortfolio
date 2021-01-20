@@ -171,6 +171,24 @@ function Project() {
         ),
         React.createElement(
             "a",
+            { className: "ap", href: "http://awardies.netlify.app/" },
+            React.createElement(
+                "div",
+                { className: "bigdiv all" },
+                React.createElement(
+                    "h4",
+                    { className: "divtext" },
+                    "Award Nomination website"
+                ),
+                React.createElement(
+                    "div",
+                    null,
+                    React.createElement("img", { className: "peak ", src: "/images/use3.png" })
+                )
+            )
+        ),
+        React.createElement(
+            "a",
             { className: "ap", href: "http://pvcubes.netlify.app/" },
             React.createElement(
                 "div",
